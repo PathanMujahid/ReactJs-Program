@@ -1,0 +1,28 @@
+*{
+    font-size: 0.2em
+}
+h1{
+    font-size: 30px;
+             
+}
+#Heading{
+   border: 1px solid white;
+    
+}
+ul
+{
+    margin-left: 100px;
+    border: 10px;
+}
+table
+{
+margin-left: 60px;
+padding: 10px;
+border: 10px;
+}
+img
+{
+    border-radius: 100%;
+    border: 5px solid seashell;
+    
+}
