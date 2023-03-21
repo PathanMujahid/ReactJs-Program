@@ -1,6 +1,6 @@
 var employee =[
     {
-        name:"munaf",
+        name:"sohel",
         designation:"full stack developer",
         salary:"100000",
         performance:10

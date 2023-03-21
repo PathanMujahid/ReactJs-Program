@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Gloock", serif;
+  background: url(https://1.bp.blogspot.com/-ImkuaBR60yY/YOmby7RgCnI/AAAAAAAAiq0/h_rhcKMhzkscvRwZWBFE5J8nQmMnieMCgCLcBGAsYHQ/s1920/GAMER-WALLPAPER-HD.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.btn {
+  padding: 10px;
+  width: 70px;
+  margin: 15px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.background-img {
+  display: flex;
+  background-size: cover;
+}
+.main {
+  width: 35%;
+  margin-top: 10%;
+  background-color: rgb(red, rgb(35, 72, 35), blue);
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  box-shadow: rgba(255, 253, 253, 0.25) 0px 54px 55px,
+    rgba(54, 25, 156, 0.12) 0px -12px 30px, rgba(35, 48, 196, 0.12) 0px 4px 10px,
+    rgba(36, 26, 56, 0.17) 0px 12px 13px,
+    rgba(128, 65, 223, 0.012) 0px -3px 10px;
+  border-radius: 15px;
+}
+input {
+}
+.user_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+}
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .gfg-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+  }
+}
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .gfg-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: cyan;
+    color: black;
+  }
+}
